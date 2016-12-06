@@ -14,6 +14,7 @@
 			<!-- it means that automatic changes will be directly applied to the database
             this is not recommended, but we will use it as example only -->  
             <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+            <property name="eclipselink.target-database" value="org.eclipse.persistence.platform.database.DatabasePlatform" />
 		</properties>
 	</persistence-unit>
 </persistence>
