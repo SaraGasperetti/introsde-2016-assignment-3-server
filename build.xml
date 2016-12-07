@@ -98,6 +98,13 @@
 		<copy todir="${build.dir}" overwrite="true">
 			<fileset dir="${src.dir}">
 				<include name="*.xml" />
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${build.dir}" overwrite="true">
+			<fileset dir="${webcontent.dir}">
+				<include name="*.xml" />
+				<include name="**/*.xml" />
 			</fileset>
 		</copy>
 	</target>
