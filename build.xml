@@ -55,6 +55,7 @@
 	<property name="build.dir" value="build" />
 	<property name="src.dir" value="src" />
 	<property name="lib.dir" value="WebContent/WEB-INF/lib" />
+	<property name="webcontent.dir" value="WebContent" />
 
 	<!-- ================================= 
 	          target: resolve downloads the dependencies to your lib folder              
