@@ -171,7 +171,6 @@ public class Person implements Serializable {
 	    //after creating the person, set the person id in the Measure row
         List<Measure> list = p.getCurrentHealth();
         if(list != null) {
-        	System.out.println("not null");
 
         	for (Measure m : list) {
             	System.out.println("The id is " + p.getIdPerson());
@@ -179,8 +178,6 @@ public class Person implements Serializable {
                 m.setPerson(p);
                 Measure.updateMeasure(m);
             }
-        }   else {
-        	System.out.println("null");
         }
 	    return p;
 	}
